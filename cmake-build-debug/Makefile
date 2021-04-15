@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named arry_init_test
+
+# Build rule for target.
+arry_init_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arry_init_test
+.PHONY : arry_init_test
+
+# fast build rule for target.
+arry_init_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arry_init_test.dir/build.make CMakeFiles/arry_init_test.dir/build
+.PHONY : arry_init_test/fast
+
+#=============================================================================
 # Target rules for targets named c__primer_practice
 
 # Build rule for target.
@@ -149,7 +162,7 @@ adapter3/array_init_test.o: adapter3/array_init_test.cpp.o
 
 # target to build an object file
 adapter3/array_init_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c__primer_practice.dir/build.make CMakeFiles/c__primer_practice.dir/adapter3/array_init_test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arry_init_test.dir/build.make CMakeFiles/arry_init_test.dir/adapter3/array_init_test.cpp.o
 .PHONY : adapter3/array_init_test.cpp.o
 
 adapter3/array_init_test.i: adapter3/array_init_test.cpp.i
@@ -158,7 +171,7 @@ adapter3/array_init_test.i: adapter3/array_init_test.cpp.i
 
 # target to preprocess a source file
 adapter3/array_init_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c__primer_practice.dir/build.make CMakeFiles/c__primer_practice.dir/adapter3/array_init_test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arry_init_test.dir/build.make CMakeFiles/arry_init_test.dir/adapter3/array_init_test.cpp.i
 .PHONY : adapter3/array_init_test.cpp.i
 
 adapter3/array_init_test.s: adapter3/array_init_test.cpp.s
@@ -167,7 +180,7 @@ adapter3/array_init_test.s: adapter3/array_init_test.cpp.s
 
 # target to generate assembly for a file
 adapter3/array_init_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c__primer_practice.dir/build.make CMakeFiles/c__primer_practice.dir/adapter3/array_init_test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arry_init_test.dir/build.make CMakeFiles/arry_init_test.dir/adapter3/array_init_test.cpp.s
 .PHONY : adapter3/array_init_test.cpp.s
 
 main.o: main.cpp.o
@@ -205,6 +218,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... arry_init_test"
 	@echo "... c__primer_practice"
 	@echo "... adapter3/array_init_test.o"
 	@echo "... adapter3/array_init_test.i"

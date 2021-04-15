@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="arry_init_test">
+				<Option output="/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/arry_init_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 arry_init_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arry_init_test/fast">
+				<Option output="/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/arry_init_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 arry_init_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="c__primer_practice">
 				<Option output="/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/c__primer_practice" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug"/>
@@ -81,10 +123,10 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/caihanyuan/demo/c++primer_practice/adapter3/array_init_test.cpp">
-			<Option target="c__primer_practice"/>
+			<Option target="arry_init_test"/>
 		</Unit>
 		<Unit filename="/Users/caihanyuan/demo/c++primer_practice/adapter3/array_init_test.h">
-			<Option target="c__primer_practice"/>
+			<Option target="arry_init_test"/>
 		</Unit>
 		<Unit filename="/Users/caihanyuan/demo/c++primer_practice/main.cpp">
 			<Option target="c__primer_practice"/>

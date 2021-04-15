@@ -1,3 +1,4 @@
 /Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/CMakeFiles/arry_init_test.dir
 /Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/CMakeFiles/c__primer_practice.dir

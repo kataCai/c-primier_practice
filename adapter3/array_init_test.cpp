@@ -12,7 +12,7 @@ int b[10];
 
 void printArr(string data[]) {
     auto size = data->size();
-    cout << "print arr data:";
+    cout << "print arr data: size:" << size;
     for (int i = 0; i < size; i++) {
         cout << data[i] << ",";
     }
@@ -23,5 +23,6 @@ int main() {
     string c[10];
     int d[10];
     printArr(a);
+    printArr(c);
 }
 

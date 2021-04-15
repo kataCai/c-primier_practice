@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/caihanyuan/demo/c++primer_practice/adapter3/array_init_test.cpp" "/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/CMakeFiles/c__primer_practice.dir/adapter3/array_init_test.cpp.o"
   "/Users/caihanyuan/demo/c++primer_practice/main.cpp" "/Users/caihanyuan/demo/c++primer_practice/cmake-build-debug/CMakeFiles/c__primer_practice.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
