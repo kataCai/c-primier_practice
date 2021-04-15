@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/caihanyuan/demo/c++primer_practice/adapter3/array_init_test.cpp
+array_init_test.h
+/Users/caihanyuan/demo/c++primer_practice/adapter3/array_init_test.h
+iostream
+-
+
+/Users/caihanyuan/demo/c++primer_practice/adapter3/array_init_test.h
+
+/Users/caihanyuan/demo/c++primer_practice/main.cpp
+iostream
+-
+
